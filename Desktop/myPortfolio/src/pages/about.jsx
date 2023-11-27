@@ -37,27 +37,27 @@ const about = () => {
         <title>Sean | About page</title>
         <meta name="description" content="any description" />
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
-        <Layout className="pt-16">
+      <main className="flex w-full flex-col items-center justify-center dark:text-light">
+        <Layout className="pt-16 ">
           <AnimatedText text="Passion fuels purpose! " className="mb-16" />
           <div className="grid w-full grid-cols-8 gap-16">
-            <div className="flex col-span-3 flex-col items-center justify-start">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
+            <div className="flex col-span-3 flex-col items-center justify-start ">
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light ">
                 Biography
               </h2>
-              <p className="font-medium">
+              <p className=" font-semibold">
                 Hi, Im Sean, a web developer and UI/UX designer with a passion
                 for creating beautiful, functional, and user-centered digital
                 experiences. With 4 years of experience in the field. I am
                 always looking for new and innovative ways to bring my clients
                 visions to life.
               </p>
-              <p className="font-medium my-4">
+              <p className="font-semibold my-4">
                 I believe that design is about more than just making things look
                 pretty its about solving problems and creating intuitive,
                 enjoyable experiences for users.
               </p>
-              <p className="font-medium">
+              <p className="font-semibold">
                 Whether Im working on a website, mobile app, or other digital
                 product, I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
@@ -83,7 +83,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={200} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark">
+                <h2 className="text-xl font-semibold capitalize text-dark dark:text-light">
                   Satisfied clients
                 </h2>
               </div>
@@ -91,7 +91,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={40} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark">
+                <h2 className="text-xl font-semibold capitalize text-dark dark:text-light">
                   Projects completed
                 </h2>
               </div>
@@ -99,7 +99,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={4} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark">
+                <h2 className="text-xl font-semibold capitalize text-dark dark:text-light">
                   Years of experiance
                 </h2>
               </div>

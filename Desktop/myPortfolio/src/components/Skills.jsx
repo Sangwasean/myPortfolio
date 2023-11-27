@@ -42,10 +42,10 @@ const Skills = () => {
         <Skill name="PHP" x="15vw" y="-12vw" />
         <Skill name="NextJS" x="32vw" y="-5vw" />
         <Skill name="TailwindCSS" x="0vw" y="-20vw" />
-        <Skill name="UnityEngine" x="-25vw" y="18vw" />
+        <Skill name="Unity Engine" x="-25vw" y="18vw" />
         <Skill name="Blender" x="18vw" y="18vw" />
         <Skill name="Figma&Photoshop" x="-35vw" y="6vw" />
-        <Skill name="FlatterJS" x="-35vw" y="-6vw" />
+        <Skill name="FlutterJS" x="-35vw" y="-6vw" />
         <Skill name="C#" x="14vw" y="-2vw" />
       </div>
     </>
