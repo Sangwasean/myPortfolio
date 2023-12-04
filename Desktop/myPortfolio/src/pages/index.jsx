@@ -31,6 +31,10 @@ export default function Home() {
                 width={500}
                 height={100}
                 className="w-full h-auto rounded-3xl"
+                priority
+                sizes="(max-width:768px) 100vw,
+                (max-width:1200px) 50vw,
+                33vw"
                 
               />
             </div>
@@ -47,7 +51,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link
-                  href="/dummy.pdf"
+                  href="/Sean's resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5
                    px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid 

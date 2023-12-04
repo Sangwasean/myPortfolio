@@ -18,7 +18,7 @@ const Details = ({ time,type,place,info }) => {
         <h3 className="capitalize font-bold text-2xl ">
           {type}
         </h3>
-        <span className="capitalize font-medium text-dark/75 ">
+        <span className="capitalize font-medium text-dark/75 dark:text-light/75">
           {time} | {place}
         </span>
         <p className="font-medium w-full">{info}</p>
@@ -42,7 +42,7 @@ const Education = () => {
         <motion.div
           style={{ scaleY: scrollYProgress }}
           ref={ref}
-          className="origin-top bg-dark h-full w-[4px] absolute left-9 top-0"
+          className="origin-top bg-dark h-full w-[4px] absolute left-9 top-0 dark:bg-light"
         />
         <ul className="flex justify-between w-full items-start flex-col ml-4">
           <Details
