@@ -53,7 +53,7 @@ const about = () => {
                 Biography
               </h2>
               <div className="font-bold text-2xl leading-1">
-                <span className="mr-4">Hi, I'm Sean, a</span>
+                <span className="mr-4">Hi, I&apos;m Sean, a</span>
                 <TypeAnimation
                   sequence={[
                     "Software Engineer",

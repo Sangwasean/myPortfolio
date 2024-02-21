@@ -29,7 +29,7 @@ const ContactPage = () => {
                   Get in touch
                 </h4>
                 <h2 className="text-[45px] uppercase dark:text-light leading-none mb-12">
-                  Let's work
+                  Let&apos;s work
                   <br /> together!
                 </h2>
               </div>
