@@ -6,27 +6,26 @@ const useThemeSwitcher = () => {
     useEffect(()=>{
         const mediaQuery= window.matchMedia(preferDarkQuery);
         const userPref=window.localStorage.getItem("theme");
-        const handleChange=()=>{
-            if(userPref){
-                let check = userPref ==="dark" ? "dark" : "light";
+        const handleChange = () => {
+            if (userPref) {
+                let check = userPref === "dark" ? "dark" : "light";
                 setMode(check);
-                if(check ==="dark"){
-                    document.documentElement.classList.add("dark")
-
-                }else{
-                    document.documentElement.classList.remove("dark")
-                } 
-            }else{
-                let check=mediaQuery.matches ? "dark":"light";
+                if (check === "dark") {
+                    document.documentElement.classList.add("dark");
+                } else {
+                    document.documentElement.classList.remove("dark");
+                }
+            } else {
+                let check = mediaQuery.matches ? "dark" : "light";
                 setMode(check);
-                if(check ==="dark"){
-                    document.getElement.classList.add("dark")
-
-                }else{
-                    document.getElement.classList.remove("dark")
+                if (check === "dark") {
+                    document.documentElement.classList.add("dark");
+                } else {
+                    document.documentElement.classList.remove("dark");
                 }
             }
         }
+        
         handleChange();
 
         mediaQuery.addEventListener("change",handleChange)
