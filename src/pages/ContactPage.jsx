@@ -2,21 +2,22 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/icons";
+import { DualRing } from "react-spinners-css";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import HireMe from "@/components/HireMe";
-import { BatteryLoading } from "react-loadingg";
 
 const ContactPage = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [loading, setLoading] = useState(false); // Add loading state
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false); // Track success state
 
   const sendEmail = async (e) => {
     e.preventDefault();
-    setLoading(true); // Set loading state to true when form is submitted
+    setLoading(true);
 
     const parameters = {
       from_name: name,
@@ -36,10 +37,11 @@ const ContactPage = () => {
       setName("");
       setEmail("");
       setMessage("");
+      setSuccess(true); // Set success state to true
     } catch (error) {
       console.log("Error:", error.text);
     } finally {
-      setLoading(false); // Set loading state back to false when email is sent or error occurs
+      setLoading(false);
     }
   };
 
@@ -69,6 +71,11 @@ const ContactPage = () => {
               onSubmit={sendEmail}
               className="flex-1 rounded-2xl flex flex-col gap-y-6 pb-14 p-6 items-start border-2  border-dark dark:border-light"
             >
+              {success && (
+                <div className="dark:text-green-700 text-white mb-4  border-2 p-3 rounded-md bg-dark dark:bg-white font-semibold">
+                  Message sent successfully!
+                </div>
+              )}
               <input
                 type="text"
                 className="bg-transparent py-3 outline-none w-full placeholder:text-dark border-b dark:text-light
@@ -106,8 +113,8 @@ const ContactPage = () => {
                   Send Email
                 </button>
                 {loading ? (
-                  <span className="relative left-8 top-0">
-                    <BatteryLoading />
+                  <span className="relative left-8 top-7">
+                    <DualRing color="violet" size={60} />
                   </span>
                 ) : (
                   <></>
