@@ -18,7 +18,7 @@ const ClientFeedback = ({ feedbackList }) => {
 
   return (
     <div className="client-feedback-container">
-      <h2 className="w-full my-16 flex flex-col items-center justify-center dark:text-light">
+      <h2 className="w-full my-4 md:my-8 lg:my-16 flex flex-col items-center justify-center dark:text-light">
         <AnimatedText
           text="Our clients feedback"
           className="mb-8 md:mb-16 !text-5xl md:!text-7xl lg:!text-8xl "
