@@ -72,7 +72,7 @@ const ContactPage = () => {
               className="flex-1 rounded-2xl flex flex-col gap-y-6 pb-14 p-6 items-start border-2  border-dark dark:border-light"
             >
               {success && (
-                <div className="dark:text-green-700 text-white mb-4  border-2 p-3 rounded-md bg-dark dark:bg-white font-semibold">
+                <div className="w-full text-center dark:text-green-700 text-white mb-4  border-2 p-3 rounded-md bg-dark dark:bg-white font-semibold">
                   Message sent successfully!
                 </div>
               )}
