@@ -56,4 +56,5 @@ module.exports = {
     sm: { max: "639px" },
     xs: { max: "479px" },
   },
+  
 };
