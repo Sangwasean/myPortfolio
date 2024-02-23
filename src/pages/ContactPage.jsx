@@ -37,12 +37,16 @@ const ContactPage = () => {
       setName("");
       setEmail("");
       setMessage("");
-      setSuccess(true); // Set success state to true
+      setSuccess(true);
     } catch (error) {
       console.log("Error:", error.text);
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleClose = () => {
+    setSuccess(false);
   };
 
   return (
@@ -72,8 +76,13 @@ const ContactPage = () => {
               className="flex-1 rounded-2xl flex flex-col gap-y-6 pb-14 p-6 items-start border-2  border-dark dark:border-light"
             >
               {success && (
-                <div className="w-full text-center dark:text-green-700 text-white mb-4  border-2 p-3 rounded-md bg-dark dark:bg-white font-semibold">
-                  Message sent successfully!
+                <div className="w-full flex items-center text-center dark:text-dark text-white mb-4  border-2 p-3 rounded-md bg-dark dark:bg-white font-semibold">
+                  <span className="w-full text-center">
+                    Message sent successfully!
+                  </span>
+                  <button onClick={handleClose}>
+                    <span>X</span>
+                  </button>
                 </div>
               )}
               <input
