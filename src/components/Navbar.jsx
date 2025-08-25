@@ -89,7 +89,7 @@ const Navbar = () => {
         className="w-6 mx-3">
           <GithubIcon />
         </motion.a>
-        <motion.a href="https://www.linkedin.com/in/sangwa-hirwa-936b97261/" target={"_blank"}
+        <motion.a href="https://www.linkedin.com" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className="w-6 mx-3">
@@ -101,7 +101,7 @@ const Navbar = () => {
         className="w- mx-3">
           <UpworkIcon />
         </motion.a>
-        <motion.a href="https://www.instagram.com/_night.wing__/" target={"_blank"}
+        <motion.a href="https://www.instagram.com/_night.wing__/_se.a.n__" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className="w-6 ml-3">

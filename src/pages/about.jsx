@@ -53,7 +53,7 @@ const about = () => {
                 Biography
               </h2>
               <div className="font-bold text-2xl leading-1">
-                <span className="mr-4">Hi, I&apos;m Sean, a</span>
+                <span className="mr-4">Hi, I&apos;m Sean, a</span><br/>
                 <TypeAnimation
                   sequence={[
                     "Software Engineer",
@@ -88,7 +88,7 @@ const about = () => {
               </p>
               <p className="font-medium ">
                 Whether Im working on a website,Software app, or other digital
-                product, I bring my commitment to Work for excellence and
+                products, I bring my commitment to Work for excellence and
                 user-centered thinking to every project I work on. I look
                 forward to the opportunity to bring my skills and passion to
                 your next project.
@@ -100,7 +100,7 @@ const about = () => {
             >
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light " />
               <Image
-                src={"/images/profile/sean3.jpg"}
+                src={"/images/profile/sean3.jpeg"}
                 alt="profile"
                 width={500}
                 height={500}

@@ -47,10 +47,10 @@ export default function Home() {
                 className="!text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl !text-2xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium ">
-                As a skilled full-stack developer and trader, I am dedicated to turning
-                ideas into innovative web apps and softwares.Explore my
-                projects and inventions, showcasing my expertise in sofware engineering and
-                web development.
+                As a skilled full-stack developer and 3D Designer, I am dedicated to turning
+                ideas into innovative web apps, softwares and animations. Explore my
+                projects and inventions, showcasing my expertise in Sofware engineering,
+                Web development and Blender.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
