@@ -54,20 +54,30 @@ const Experience = () => {
         <ul className="flex justify-between w-full items-start flex-col ml-2 sm:ml-4 ">
           <Details
             position="Frontend developer"
-            company="APZ-sign"
-            time="2023"
-            address="USA"
-            work="Worked on a team at APZ-Sign a company that uses e-signature to be associated with
-            handwritten documents and scribblings and authenticate documents"
+            company="Proplex"
+            time="2025"
+            address="Rwanda"
+            companyLink={""}
+            work="Worked as a Project leader and frontend developer on proplex a 
+            fleet management or asset lending and borrowing system that helps
+            institutions manage their asset and easily make and income from exposing them to borrowers"
           />
           <Details
-            position="Marketing agent"
-            company="Xenziz services"
+            position="Mobile developer"
+            company="ZANI"
+            time="2025"
+            address="Rwanda"
+            companyLink={""}
+            work="Worked as a mobile developer at zani world, a Rwanda based dating app that eases matchmaking 
+            for rwandans and those who live in rwanda efficiently and accurately"
+          />
+          <Details
+            position="Frontend developer"
+            company="APZ-sign"
             time="2023"
-            address="INDIA"
-            companyLink={"https://xenziz.com"}
-            work="Worked as a marketing agent at xenziz services, a company that AI bots for ecommerce companies
-            to automate and lead customers throught the web store with the least worker interaction"
+            address="Rwanda"
+            work="Worked on a team at APZ-Sign a company that uses e-signature to be associated with
+            handwritten documents and scribblings and authenticate documents"
           />
         </ul>
       </div>

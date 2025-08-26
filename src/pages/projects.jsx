@@ -13,6 +13,14 @@ import project3 from "../../public/images/projects/smoothies.png";
 import project4 from "../../public/images/projects/weather-bot.png";
 import project5 from "../../public/images/projects/pythonclock.png";
 import project6 from "../../public/images/projects/ecommerce.png";
+import project7 from "../../public/images/projects/Parking_management.jpeg";
+import project8 from "../../public/images/projects/Donut.png";
+import project9 from "../../public/images/projects/pepsi_Can.png";
+import project10 from "../../public/images/projects/proplex.png";
+import project11 from "../../public/images/projects/stanleycupblender.png";
+import project12 from "../../public/images/projects/nflblender.png";
+import project13 from "../../public/images/projects/rcadormblender.png";
+import project14 from "../../public/images/projects/binexopayblender.png";
 import ClientFeedback from "@/components/ClientFeedback";
 import HireMe from "@/components/HireMe";
 
@@ -152,13 +160,14 @@ const Projects = () => {
           />
           <div className="grid grid-cols-12 gap-24 gap-x-0 md:gap-y-24 lg:gap-x-8 xl:gap-x-16  ">
             <div className="col-span-12">
+              
               <FeaturedProject
-                title="Instagram clone using Django"
-                img={project1}
-                summary="An instagram clone using python-django framework with full functionalities
-                 like login signup follow like and comments"
-                link="https://github.com/Sangwasean/django_instagram_clone"
-                github="https://github.com/Sangwasean/django_instagram_clone"
+                title="Embedded Parking management system"
+                img={project7}
+                summary="An Python parking management system that captures and processes car number plates 
+                and their payment cards and works with LED lights and buzzers to notify different actions like car entry or exit"
+                link="https://github.com/Sangwasean/parking-management-system"
+                github="https://github.com/Sangwasean/parking-management-system"
                 type="Featured project"
               />
             </div>
@@ -184,14 +193,56 @@ const Projects = () => {
                 type="Featured project"
               />
             </div>
+            <div className="col-span-12 lg:col-span-6">
+              <Project
+                title="Delicious Blender Donut"
+                img={project8}
+                summary="A python space shooting game which can be controlled using a joystick to move
+                 to move the character and has a win and lose indicator."
+                github=""
+                link=""
+                type="Featured project"
+              />
+            </div>
+            <div className="col-span-12 lg:col-span-6">
+              <Project
+                title="A Blender Pepsi can"
+                img={project9}
+                summary="A python space shooting game which can be controlled using a joystick to move
+                 to move the character and has a win and lose indicator."
+                github=""
+                link=""
+                type="Featured project"
+              />
+            </div>
+            <div className="col-span-12 lg:col-span-6">
+              <Project
+                title="Stanley cup blender model"
+                img={project11}
+                summary=""
+                github=""
+                link=""
+                type="Featured project"
+              />
+            </div>
+            <div className="col-span-12 lg:col-span-6">
+              <Project
+                title="Nfl cup Blender model"
+                img={project12}
+                summary=""
+                github=""
+                link=""
+                type="Featured project"
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Full authentication-authorization for a simple website"
-                img={project3}
-                summary="A simple smoothie website with full user authentication
-                and authorization using express and jwt"
-                link="https://github.com/Sangwasean/smoothies_authentication"
-                github="https://github.com/Sangwasean/smoothies_authentication"
+                title="ProPlex"
+                img={project10}
+                summary="a fleet management and asset lending or borrowing system that helps
+                 institutions or sole parties manage their asset or put them up for display"
+                link="https://github.com/ChristianRukundo/PropPlex.git"
+                github="https://github.com/ChristianRukundo/PropPlex.git"
                 type="Featured project"
               />
             </div>
@@ -207,6 +258,17 @@ const Projects = () => {
             </div>
             <div className="col-span-12 lg:col-span-6">
               <Project
+                title="Full authentication-authorization for a simple website"
+                img={project3}
+                summary="A simple smoothie website with full user authentication
+                and authorization using express and jwt"
+                link="https://github.com/Sangwasean/smoothies_authentication"
+                github="https://github.com/Sangwasean/smoothies_authentication"
+                type="Featured project"
+              />
+            </div>
+            <div className="col-span-12 lg:col-span-6">
+              <Project
                 title="Ecommerce with django"
                 img={project6}
                 summary=""
@@ -215,6 +277,38 @@ const Projects = () => {
                 type="Featured project"
               />
             </div>
+            <div className="col-span-12 lg:col-span-6">
+              <Project
+                title="Instagram clone using Django"
+                img={project1}
+                summary="An instagram clone using python-django framework with full functionalities
+                 like login signup follow like and comments"
+                link="https://github.com/Sangwasean/django_instagram_clone"
+                github="https://github.com/Sangwasean/django_instagram_clone"
+                type="Featured project"
+              />
+            </div>
+            <div className="col-span-12 lg:col-span-6">
+              <Project
+                title="A school dorm chamber blender model"
+                img={project13}
+                summary=""
+                github=""
+                link=""
+                type="Featured project"
+              />
+            </div>
+            <div className="col-span-12 lg:col-span-6">
+              <Project
+                title="Billing machine blender model"
+                img={project14}
+                summary=""
+                github=""
+                link=""
+                type="Featured project"
+              />
+            </div>
+            
           </div>
           <ClientFeedback feedbackList={feedbackList} />
           <HireMe />

@@ -47,9 +47,9 @@ const about = () => {
             text="Ideas to Reality!"
             className="mb-8 md:mb-16 !text-5xl md:!text-7xl lg:!text-8xl"
           />
-          <div className="grid w-full grid-cols-8 gap-8 md:gap-16">
-            <div className="flex flex-col items-center justify-start order-2 md:order-1 col-span-8 md:col-span-3">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light ">
+          <div className="grid w-full grid-cols-8 gap-8 md:gap-16 ">
+            <div className="flex flex-col  justify-start order-2 md:order-1 col-span-8 md:col-span-3">
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light text-center">
                 Biography
               </h2>
               <div className="font-bold text-2xl leading-1">
@@ -62,7 +62,7 @@ const about = () => {
                     1500,
                     "Graphics designer",
                     1500,
-                    "",
+                    "Mobile developer",
                     1500,
                     "3D Artist",
                     1500,
@@ -72,7 +72,7 @@ const about = () => {
                     1500,
                   ]}
                   speed={[50]}
-                  className="text-primary  dark:text-primaryDark"
+                  className=" text-primary  dark:text-primaryDark"
                   cursor={true}
                   wrapper="span"
                   repeat={Infinity}

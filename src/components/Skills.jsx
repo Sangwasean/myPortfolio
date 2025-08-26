@@ -49,8 +49,8 @@ const Skills = () => {
         <Skill name="Unity Engine" x="-25vw" y="18vw" />
         <Skill name="Blender" x="18vw" y="18vw" />
         <Skill name="Figma" x="-35vw" y="6vw" />
-        <Skill name="Photoshop" x="-23vw" y="12vw" />
-        <Skill name="FlutterJS" x="-35vw" y="-6vw" />
+        <Skill name="Adobe Photoshop" x="-23vw" y="12vw" />
+        <Skill name="ReactNative" x="-35vw" y="-6vw" />
         <Skill name="C#" x="14vw" y="-2vw" />
       </div>
     </>
