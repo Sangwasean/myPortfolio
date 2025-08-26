@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/icons";
-import { DualRing } from "react-spinners-css";
+import { RingLoader } from "react-spinners";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,7 +28,7 @@ const ContactPage = () => {
 
     try {
       const response = await emailjs.send(
-        "service_12bgef8",
+        "service_zq3h6qu",
         "template_59i4tgt",
         parameters,
         "DaVHRTdzPOctnhuqH"
@@ -123,7 +123,7 @@ const ContactPage = () => {
                 </button>
                 {loading ? (
                   <span className="relative left-8 top-7">
-                    <DualRing color="violet" size={60} />
+                    <RingLoader color="violet" size={60} />
                   </span>
                 ) : (
                   <></>
